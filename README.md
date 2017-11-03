@@ -20,7 +20,7 @@ Update the path in the Snakefile to point to wherever you installed `usearch`. B
 
 4. Create a new Conda environment with Sunbeam (assumes you have Miniconda or similar installed):
     ```bash
-    conda create -n my_project -c bioconda sunbeam
+    conda create -n my_project -c bioconda snakemake
     ```
 
 5. Copy or symlink your QC'd, decontaminated, paired reads to a folder in this folder (e.g. `data_files`)
